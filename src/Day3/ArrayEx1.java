@@ -9,7 +9,7 @@ public class ArrayEx1 {
 		/* 배열은 자료형이 같은 변수를 하나로 묶는 것으로,
 		 * 동일한 목적의 변수이여야한다.*/
 		
-		int num1, num2, num3, num4, num5; // 메모리 용량을 잡을 때, 각자 랜덤으로 흩어져서 잡는다.
+		// int num1, num2, num3, num4, num5; // 메모리 용량을 잡을 때, 각자 랜덤으로 흩어져서 잡는다.
 		int num [] = new int [5]; // (교재 182page) // 메모리 용량을 잡을 때 연속된 공간에 잡는다.
 		 // 앞에 있는 num은 뒤에 있는 new int[5]의 주소를 갖고 있다.
 		
@@ -30,8 +30,8 @@ public class ArrayEx1 {
 		}
 		
 		
-		int []num1;
-		int num2[];
+		// int []num1;
+		// int num2[];
 		// 이때는 화면에 나타나는 것이 똑같다. 그러나 ','를 찍어서 두개로 한다면?
 		int []num1, num3; // int[]가 공통으로 되어 num1, num3가 배열이 된다.
 		int num2[], num4; // int가 공통으로 되어 num2는 배열, num4는 일반 변수가 됨
